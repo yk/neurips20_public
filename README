@@ -1,0 +1,6 @@
+ypack is a utility package
+cifar_model constructs and loads the model
+
+the bulk of the code is in main.py
+the various command line parameters steer the control flow, such as --mode to switch from training to eval, or --attack to change the type of adversarial attack used
+the main parameters for our method are --ujv_reg to activate d.d.SNR and --train_adv_ratio to activate adversarial training
